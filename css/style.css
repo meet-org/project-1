@@ -29,41 +29,108 @@
   font-family: yekan;
 }
 
-/* section-5 Fact */
-#fact-sec {
+/* section-5 Facts starts*/
+#facts-sec {
   width: 100%;
   height: 600px;
   margin-top: 70px;
 }
-#fact-sec .container {
+#facts-sec .container {
   margin: auto;
   width: 90%;
   max-width: 1200px;
 }
-#fact-sec .container .row {
+#facts-sec .container .row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
-#fact-sec .container .row .right {
+#facts-sec .container .row .right {
   grid-column: span 6;
-  margin: 50px;
+  margin: 30px;
+  padding: 15px;
   position: relative;
 }
-#fact-sec .container .row .right .img-container {
+#facts-sec .container .row .right .img-container {
   position: relative;
   filter: drop-shadow(5px 5px 10px rgba(113, 113, 113, 0.5019607843));
 }
-#fact-sec .container .row .right .img-container img {
+#facts-sec .container .row .right .img-container img {
   width: 100%;
 }
-#fact-sec .container .row .right #dots {
+#facts-sec .container .row .right #dots {
   position: absolute;
-  right: -30px;
-  bottom: -30px;
+  right: -20px;
+  bottom: -10px;
 }
-#fact-sec .container .row .left {
+#facts-sec .container .row .left {
   grid-column: span 6;
-  background-color: yellow;
-  margin: 50px;
+  margin: 30px;
+  padding: 15px;
+  padding-right: 50px;
   height: 400px;
-}/*# sourceMappingURL=style.css.map */
+}
+#facts-sec .container .row .left .section-content .section-title h3 {
+  font-weight: bold;
+  font-size: 35px;
+  position: relative;
+  margin-top: 15px;
+  color: #2e2e2e;
+}
+#facts-sec .container .row .left .section-content .section-title h3::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -15px;
+  background: linear-gradient(to left, rgb(254, 132, 100) 0, rgb(254, 110, 154) 100%);
+  width: 150px;
+  height: 5px;
+}
+#facts-sec .container .row .left .section-content .section-title h3 span {
+  font-weight: lighter;
+  font-size: 32px;
+}
+#facts-sec .container .row .left .section-content .section-text {
+  margin: 35px 0;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6a6972;
+}
+#facts-sec .container .row .left .counter-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 40px;
+}
+#facts-sec .container .row .left .counter-container .box {
+  grid-column: span 4;
+  height: 170px;
+  background: linear-gradient(to left, rgb(51, 200, 193) 0, rgb(17, 155, 210) 100%);
+  border-radius: 70px;
+  transform: rotate(-45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#facts-sec .container .row .left .counter-container .box .counter-item {
+  text-align: center;
+  transform: rotate(45deg);
+}
+#facts-sec .container .row .left .counter-container .box .counter-item .counter {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #ffffff;
+}
+#facts-sec .container .row .left .counter-container .box .counter-item .counter-title {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+}
+#facts-sec .container .row .left .counter-container .box2 {
+  background: linear-gradient(to left, rgb(254, 132, 100) 0, rgb(254, 110, 154) 100%);
+}
+#facts-sec .container .row .left .counter-container .box3 {
+  background: linear-gradient(to left, rgb(54, 28, 193) 0, rgb(46, 130, 239) 100%);
+}
+
+/* section-5 Facts ends*//*# sourceMappingURL=style.css.map */

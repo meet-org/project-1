@@ -1,7 +1,7 @@
 @import "main";
 
-/* section-5 Fact */
-#fact-sec {
+/* section-5 Facts starts*/
+#facts-sec {
    width: 100%;
    height: 600px;
    margin-top: 70px;
@@ -14,7 +14,8 @@
          grid-template-columns: repeat(12, 1fr);
          .right {
             grid-column: span 6;
-            margin: 50px;
+            margin: 30px;
+            padding: 15px;
             position: relative;
             .img-container {
                position: relative;
@@ -26,17 +27,88 @@
 
             #dots {
                position: absolute;
-               right: -30px;
-               bottom: -30px;
+               right: -20px;
+               bottom: -10px;
             }
          }
 
          .left {
             grid-column: span 6;
-            background-color: yellow;
-            margin: 50px;
+            margin: 30px;
+            padding: 15px;
+            padding-right: 50px;
             height: 400px;
+            .section-content {
+               .section-title {
+                  h3 {
+                     font-weight: bold;
+                     font-size: 35px;
+                     position: relative;
+                     margin-top: 15px;
+                     color: $text-black;
+                     &::before {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        top: -15px;
+                        background: $bg-pink-gradient;
+                        width: 150px;
+                        height: 5px;
+                     }
+                     span {
+                        font-weight: lighter;
+                        font-size: 32px;
+                     }
+                  }
+               }
+
+               .section-text {
+                  margin: 35px 0;
+                  line-height: 30px;
+                  font-weight: 400;
+                  font-size: 16px;
+                  color: $text-gray;
+               }
+            }
+
+            .counter-container {
+               display: grid;
+               grid-template-columns: repeat(12, 1fr);
+               gap: 40px;
+               .box {
+                  grid-column: span 4;
+                  height: 170px;
+                  background: $bg-green-gradient;
+                  border-radius: 70px;
+                  transform: rotate(-45deg);
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  .counter-item {
+                     text-align: center;
+                     transform: rotate(45deg);
+                     .counter {
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                        font-size: 25px;
+                        color: $text-white;
+                     }
+                     .counter-title {
+                        font-size: 18px;
+                        font-weight: normal;
+                        color: $text-white;
+                     }
+                  }
+               }
+               .box2 {
+                  background: $bg-pink-gradient;
+               }
+               .box3 {
+                  background: $bg-blue-gradient;
+               }
+            }
          }
       }
    }
 }
+/* section-5 Facts ends*/
