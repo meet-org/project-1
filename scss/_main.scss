@@ -88,6 +88,11 @@ $dark: #343a40;
 @mixin blue-btn-bg(){
    background: linear-gradient(to left,#33c8c1 0,#119bd2 50%,#33c8c1 100%);
 }
-// 
+// For Display Flex
+@mixin d-flex(){
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 
 

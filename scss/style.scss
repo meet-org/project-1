@@ -1,6 +1,61 @@
 @import "main";
 
-// ------- Start Header --------------
+// -------- Start NavBar -----------
+.navbar-area{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    // // position: fixed;
+    // // z-index: 99;
+    .container{
+        width: 60%;
+        margin: 0 auto;
+        .navbar-container{
+            display: flex;
+            align-items: center;
+            padding: 25px 0;
+            .navbar-brand{
+                @include d-flex();
+            }
+            .navbar-toggler{
+                display: none;
+                .toggler-icon{
+
+                }
+            }
+            .navbar-menu-container{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                .navbar-menu_list{
+                    list-style: none;
+                    display: flex;
+                    flex-direction: row;
+                    text-align: center;
+                    margin-right: auto;
+                    padding-right: 200px;
+                    .nav-item{
+                        display: inline-block;
+                        margin-left: 3em;
+                        a{
+                            color: $white;
+                        }
+                    }
+                }
+            }
+            .navbar-btn{
+                .main-btn{
+                    @include orange-btn-bg();
+                    @include header-btn();
+                }
+            }
+        }
+    }
+}
+//  -------- End NavBar -----------
+
+// ------- Start Header -----------
 .header-main{
     background-image: url(../images/banner-bg.svg);
     @include Header_bg();
