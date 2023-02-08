@@ -1,1 +1,40 @@
 @import "main";
+
+// ------- Start Header --------------
+.header-main{
+    background-image: url(../images/banner-bg.svg);
+    @include Header_bg();
+    background-position-y: -100px;
+    color: $white;
+    .container{
+        .header_content{
+            padding-top: 180px;
+            text-align: center;
+            .header_subtitle{
+
+            }
+            .header_title{
+
+            }
+            .header_text{
+                margin-top: 30px;
+            }
+            .header_btn{
+                @include blue-btn-bg();
+                @include header-btn();
+                margin-top: 40px;
+            }
+        }
+        .header_image{
+            padding-top: 45px;
+            img{
+                max-width: 650px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+        }
+    }
+}
+// -------- End Header -----------

@@ -61,3 +61,33 @@ $dark: #343a40;
    box-sizing: border-box;
    font-family: yekan;
 }
+
+// for Header Background
+@mixin Header_bg(){
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100%;
+}
+// for Header Buttons Style
+@mixin header-btn(){
+   border-radius: 5px;
+   padding: 0 25px;
+   color: #fff;
+   font-size: 16px;
+   text-align: center;
+   display: inline-block;
+   line-height: 48px;
+   font-weight: 500;
+   background-size: 200%;
+}
+//  For Header Buttons Background-Color
+@mixin orange-btn-bg(){
+   background: linear-gradient(to left,#fe8464 0,#fe6e9a 50%,#fe8464 100%);
+}
+@mixin blue-btn-bg(){
+   background: linear-gradient(to left,#33c8c1 0,#119bd2 50%,#33c8c1 100%);
+}
+// 
+
+
