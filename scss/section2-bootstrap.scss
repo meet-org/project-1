@@ -1,0 +1,62 @@
+@import "main";
+
+body {
+    .section2-bootstrap-wrapper{
+
+    .section2-bootstrap {
+        width: 80vw;
+        height: 55vh;
+        margin: 0 auto;
+        margin-top: 20px;
+        overflow: hidden;
+        display: flex;
+        
+        .section2-bootsrap-rightsection {
+            width: 50%;
+            height: 100%;
+            .section2-bootsrap_line{
+                border: 4px solid #FE8269;
+                width: 150px;
+                margin-bottom: 10px;
+
+
+            }
+            .section2-bootsrap_text{
+                h1{
+                    margin-bottom: 20px;
+                }
+                p{
+                    margin-bottom: 30px;
+                    text-align: right;
+                }
+            }
+            .section2-bootsrap_btn{
+                a{
+                    display: flex;
+                    margin-right: 20px;
+                    width: 190px;
+                    height: 50px;
+                    justify-content: center;
+                    align-items: center;
+                    background: linear-gradient(to left,#fe8464 0,#fe6e9a 50%,#fe8464 100%);
+                    color: white;
+                    font-size: 1.2rem;
+                    border-radius: 10px;
+                    margin-top: 50px;
+                }
+            }
+            
+        }
+        
+        .section2-bootsrap-leftsection {
+            width: 546px;
+            height: 321px;
+            img{
+                transform:scaleX(-1);
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+    }
+}}
