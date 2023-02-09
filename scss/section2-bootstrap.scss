@@ -2,7 +2,6 @@
 
 body {
     .section2-bootstrap-wrapper{
-background-color: rgb(241, 234, 234);
 
     .section2-bootstrap {
         width: 80vw;
@@ -16,6 +15,11 @@ background-color: rgb(241, 234, 234);
             width: 50%;
             height: 100%;
             .section2-bootsrap_line{
+                border: 4px solid #FE8269;
+                width: 150px;
+                margin-bottom: 10px;
+
+
             }
             .section2-bootsrap_text{
                 h1{
@@ -23,6 +27,7 @@ background-color: rgb(241, 234, 234);
                 }
                 p{
                     margin-bottom: 30px;
+                    text-align: right;
                 }
             }
             .section2-bootsrap_btn{
@@ -37,14 +42,15 @@ background-color: rgb(241, 234, 234);
                     color: white;
                     font-size: 1.2rem;
                     border-radius: 10px;
+                    margin-top: 50px;
                 }
             }
             
         }
         
         .section2-bootsrap-leftsection {
-            width: 50%;
-            height: 100%;
+            width: 546px;
+            height: 321px;
             img{
                 transform:scaleX(-1);
                 width: 100%;
