@@ -1,5 +1,10 @@
- @mixin flexForBrand($justify:start,$align:start){
+ @mixin d-flex($justify:start,$align:start){
     display: flex;
         justify-content: $justify;
         align-items: $align;
+ }
+ @mixin d-grid($columns,$gap){
+    display: grid;
+    grid-template-columns:$columns ;
+    gap: $gap;
  }
