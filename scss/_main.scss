@@ -1,8 +1,15 @@
-$primary-color: #361EC2;
-$second-color: #FE7095;
-$light-color: #FFFFFF;
-$dark-color: #2E2E2E;
+$primary-color: #361ec2;
+$second-color: #fe7095;
+$text-black: #2e2e2e;
+$text-gray: #6a6972;
+$text-white: #ffffff;
+$light-color: #ffffff;
+$dark-color: #2e2e2e;
+$bg-pink-gradient: linear-gradient(to left, rgb(254 132 100) 0,rgb(254 110 154) 100%);
+$bg-green-gradient: linear-gradient(to left, rgb(51 200 193) 0, rgb(17 155 210) 100%);
+$bg-blue-gradient: linear-gradient(to left, rgb(54 28 193) 0, rgb(46 130 239) 100%);
 $box-shadow: 0 0 18px 0 rgb(50 77 215 / 14%);
+$box-shadow2: 0 13px 46px 0 rgb(113 113 113 / 33%);
 
 /* import fonts */
 @font-face {
