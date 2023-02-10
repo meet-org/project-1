@@ -286,3 +286,99 @@ body {
 }
 
 /* section-5 Facts ends*//*# sourceMappingURL=style.css.map */
+
+.navbar-area {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+.navbar-area .container {
+  width: 60%;
+  margin: 0 auto;
+}
+.navbar-area .container .navbar-container {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+}
+.navbar-area .container .navbar-container .navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-area .container .navbar-container .navbar-toggler {
+  display: none;
+}
+.navbar-area .container .navbar-container .navbar-menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar-area .container .navbar-container .navbar-menu-container .navbar-menu_list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-right: auto;
+  padding-right: 200px;
+}
+.navbar-area .container .navbar-container .navbar-menu-container .navbar-menu_list .nav-item {
+  display: inline-block;
+  margin-left: 3em;
+}
+.navbar-area .container .navbar-container .navbar-menu-container .navbar-menu_list .nav-item a {
+  color: #fff;
+}
+.navbar-area .container .navbar-container .navbar-btn .main-btn {
+  background: linear-gradient(to left, #fe8464 0, #fe6e9a 50%, #fe8464 100%);
+  border-radius: 5px;
+  padding: 0 25px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  line-height: 48px;
+  font-weight: 500;
+  background-size: 200%;
+}
+
+.header-main {
+  background-image: url(../images/banner-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position-y: -100px;
+  color: #fff;
+}
+.header-main .container .header_content {
+  padding-top: 180px;
+  text-align: center;
+}
+.header-main .container .header_content .header_text {
+  margin-top: 30px;
+}
+.header-main .container .header_content .header_btn {
+  background: linear-gradient(to left, #33c8c1 0, #119bd2 50%, #33c8c1 100%);
+  border-radius: 5px;
+  padding: 0 25px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  line-height: 48px;
+  font-weight: 500;
+  background-size: 200%;
+  margin-top: 40px;
+}
+.header-main .container .header_image {
+  padding-top: 45px;
+}
+.header-main .container .header_image img {
+  max-width: 650px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */

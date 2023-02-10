@@ -1,5 +1,96 @@
 @import "main";
 
+// -------- Start NavBar -----------
+.navbar-area {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 100%;
+   // // position: fixed;
+   // // z-index: 99;
+   .container {
+      width: 60%;
+      margin: 0 auto;
+      .navbar-container {
+         display: flex;
+         align-items: center;
+         padding: 25px 0;
+         .navbar-brand {
+            @include d-flex();
+         }
+         .navbar-toggler {
+            display: none;
+            .toggler-icon {
+            }
+         }
+         .navbar-menu-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .navbar-menu_list {
+               list-style: none;
+               display: flex;
+               flex-direction: row;
+               text-align: center;
+               margin-right: auto;
+               padding-right: 200px;
+               .nav-item {
+                  display: inline-block;
+                  margin-left: 3em;
+                  a {
+                     color: $white;
+                  }
+               }
+            }
+         }
+         .navbar-btn {
+            .main-btn {
+               @include orange-btn-bg();
+               @include header-btn();
+            }
+         }
+      }
+   }
+}
+//  -------- End NavBar -----------
+
+// ------- Start Header -----------
+.header-main {
+   background-image: url(../images/banner-bg.svg);
+   @include Header_bg();
+   background-position-y: -100px;
+   color: $white;
+   .container {
+      .header_content {
+         padding-top: 180px;
+         text-align: center;
+         .header_subtitle {
+         }
+         .header_title {
+         }
+         .header_text {
+            margin-top: 30px;
+         }
+         .header_btn {
+            @include blue-btn-bg();
+            @include header-btn();
+            margin-top: 40px;
+         }
+      }
+      .header_image {
+         padding-top: 45px;
+         img {
+            max-width: 650px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+         }
+      }
+   }
+}
+// -------- End Header -----------
+
 /* section-5 Facts starts*/
 #facts-sec {
    width: 100%;

@@ -11,6 +11,28 @@ $bg-blue-gradient: linear-gradient(to left, rgb(54 28 193) 0, rgb(46 130 239) 10
 $box-shadow: 0 0 18px 0 rgb(50 77 215 / 14%);
 $box-shadow2: 0 13px 46px 0 rgb(113 113 113 / 33%);
 
+$blue: #007bff;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
+$white: #fff;
+$gray: #6c757d;
+$gray-dark: #343a40;
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
+
 /* import fonts */
 @font-face {
    font-family: iran;
@@ -46,3 +68,38 @@ $box-shadow2: 0 13px 46px 0 rgb(113 113 113 / 33%);
    box-sizing: border-box;
    font-family: yekan;
 }
+
+// for Header Background
+@mixin Header_bg(){
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100%;
+}
+// for Header Buttons Style
+@mixin header-btn(){
+   border-radius: 5px;
+   padding: 0 25px;
+   color: #fff;
+   font-size: 16px;
+   text-align: center;
+   display: inline-block;
+   line-height: 48px;
+   font-weight: 500;
+   background-size: 200%;
+}
+//  For Header Buttons Background-Color
+@mixin orange-btn-bg(){
+   background: linear-gradient(to left,#fe8464 0,#fe6e9a 50%,#fe8464 100%);
+}
+@mixin blue-btn-bg(){
+   background: linear-gradient(to left,#33c8c1 0,#119bd2 50%,#33c8c1 100%);
+}
+// For Display Flex
+@mixin d-flex(){
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
