@@ -294,11 +294,13 @@ body {
   width: 100%;
 }
 .navbar-area .container {
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
+  max-width: 1160px;
 }
 .navbar-area .container .navbar-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 25px 0;
 }

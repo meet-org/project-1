@@ -9,10 +9,12 @@
    // // position: fixed;
    // // z-index: 99;
    .container {
-      width: 60%;
+      width: 90%;
       margin: 0 auto;
+      max-width: 1160px;
       .navbar-container {
          display: flex;
+         justify-content: space-between;
          align-items: center;
          padding: 25px 0;
          .navbar-brand {
