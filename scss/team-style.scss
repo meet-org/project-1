@@ -1,0 +1,69 @@
+@import "_components";
+@import "general";
+@import "layouts";
+@import "main";
+
+.title-team {
+    text-align: center;
+    font-size: 2.2em;
+
+    p {
+        width: 488px;
+        margin: 35px auto 4rem;
+
+        span {
+            font-weight: bolder;
+        }
+    }
+}
+
+.teams {
+    @include d-grid(repeat(3, 1fr), 20px);
+    text-align: center;
+
+    .teams__box-main {
+        position: relative;
+
+        img {
+            width: 370px;
+            height: 310px;
+        }
+
+        .social {
+            background-color: rgba(255, 255, 255, .23);
+            height: 4rem;
+            border-radius: 30px;
+            width: 62%;
+            position: absolute;
+            bottom: 7.5rem;
+            right: 4.5rem;
+            @include d-flex(center,center);
+
+            ul {
+                @include d-flex(center, center);
+
+                li {
+                    list-style: none;
+                    a{
+                        color: white;
+                        margin: 10px;
+                    }
+                }
+            }
+            &:hover{
+                background: linear-gradient(#fe8464 0,#fe6e9a 100%);
+            }
+        }
+
+        .team-title {
+            margin-top: 1rem;
+            font-size: 1.4em;
+            line-height: 2;
+        }
+
+        .team-lable {
+            color: #6a6972;
+        }
+    }
+
+}

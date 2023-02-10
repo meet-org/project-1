@@ -1,0 +1,18 @@
+$font-size1:1.6em;
+.container-fluid{
+margin: 0;
+width: 100%;
+padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.hr-style{
+    width: 12rem;
+    color: red;
+    height: 0.3rem;
+    background: red;
+    border: none;
+    margin: 6rem auto 1rem;
+}
