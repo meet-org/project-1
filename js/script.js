@@ -2,9 +2,9 @@
 const countersElem = document.querySelectorAll(".counter");
 
 countersElem.forEach(function (counterElem) {
+   let counterNumber = 0;
    let counterType = counterElem.dataset.type;
    let counterTarget = counterElem.dataset.target;
-   let counterNumber = 0;
 
    let counter = setInterval(function () {
       if (counterType === "int") {

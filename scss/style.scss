@@ -37,36 +37,35 @@
             margin: 30px;
             padding: 15px;
             padding-right: 50px;
-            height: 400px;
-            .section-content {
-               .section-title {
+            .facts-sec_content {
+               .facts-sec_title {
                   h3 {
-                     font-weight: bold;
                      font-size: 35px;
+                     font-weight: bold;
                      position: relative;
                      margin-top: 15px;
                      color: $text-black;
                      &::before {
                         content: "";
                         display: block;
+                        width: 150px;
+                        height: 5px;
                         position: absolute;
                         top: -15px;
                         background: $bg-pink-gradient;
-                        width: 150px;
-                        height: 5px;
                      }
                      span {
-                        font-weight: lighter;
                         font-size: 32px;
+                        font-weight: lighter;
                      }
                   }
                }
 
-               .section-text {
+               .facts-sec_text {
                   margin: 35px 0;
-                  line-height: 30px;
-                  font-weight: 400;
                   font-size: 16px;
+                  font-weight: 400;
+                  line-height: 30px;
                   color: $text-gray;
                }
             }
@@ -77,20 +76,19 @@
                gap: 40px;
                .box {
                   grid-column: span 4;
-                  height: 170px;
-                  background: $bg-green-gradient;
                   border-radius: 70px;
+                  height: 170px;
+                  display: grid;
+                  place-content: center;
+                  background: $bg-green-gradient;
                   transform: rotate(-45deg);
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
                   .counter-item {
                      text-align: center;
                      transform: rotate(45deg);
                      .counter {
                         font-family: Arial, Helvetica, sans-serif;
-                        font-weight: bold;
                         font-size: 25px;
+                        font-weight: bold;
                         color: $text-white;
                      }
                      .counter-title {
