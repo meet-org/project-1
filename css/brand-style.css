@@ -9,6 +9,15 @@ a {
   color: black;
 }
 
+.hr-style {
+  width: 12rem;
+  color: red;
+  height: 0.3rem;
+  background: red;
+  border: none;
+  margin: 6rem auto 1rem;
+}
+
 /* import fonts */
 @font-face {
   font-family: iran;
@@ -59,14 +68,6 @@ a {
 }
 .container .section-brands .brands img:hover {
   opacity: 1;
-}
-.container .section-brands hr {
-  width: 12rem;
-  color: red;
-  height: 0.3rem;
-  background: red;
-  border: none;
-  margin: 6rem auto 1rem;
 }
 .container .section-brands .title {
   margin: 0 auto;

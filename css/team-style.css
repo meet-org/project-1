@@ -1,0 +1,111 @@
+.container-fluid {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.hr-style {
+  width: 12rem;
+  color: red;
+  height: 0.3rem;
+  background: red;
+  border: none;
+  margin: 6rem auto 1rem;
+}
+
+/* import fonts */
+@font-face {
+  font-family: iran;
+  src: url(../fonts/iran.ttf);
+}
+@font-face {
+  font-family: iranYekan;
+  src: url(../fonts/iranyekanwebbold.ttf);
+}
+@font-face {
+  font-family: koodak;
+  src: url(../fonts/KoodakBold.ttf);
+}
+@font-face {
+  font-family: nazanin;
+  src: url(../fonts/Nazanin.ttf);
+}
+@font-face {
+  font-family: yekan;
+  src: url(../fonts/Yekan.ttf);
+}
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: yekan;
+}
+
+.title-team {
+  text-align: center;
+  font-size: 2.2em;
+}
+.title-team p {
+  width: 488px;
+  margin: 35px auto 4rem;
+}
+.title-team p span {
+  font-weight: bolder;
+}
+
+.teams {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+.teams .teams__box-main {
+  position: relative;
+}
+.teams .teams__box-main img {
+  width: 370px;
+  height: 310px;
+}
+.teams .teams__box-main .social {
+  background-color: rgba(255, 255, 255, 0.23);
+  height: 4rem;
+  border-radius: 30px;
+  width: 62%;
+  position: absolute;
+  bottom: 7.5rem;
+  right: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teams .teams__box-main .social ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teams .teams__box-main .social ul li {
+  list-style: none;
+}
+.teams .teams__box-main .social ul li a {
+  color: white;
+  margin: 10px;
+}
+.teams .teams__box-main .social:hover {
+  background: linear-gradient(#fe8464 0, #fe6e9a 100%);
+}
+.teams .teams__box-main .team-title {
+  margin-top: 1rem;
+  font-size: 1.4em;
+  line-height: 2;
+}
+.teams .teams__box-main .team-lable {
+  color: #6a6972;
+}/*# sourceMappingURL=team-style.css.map */
