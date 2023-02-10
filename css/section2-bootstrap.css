@@ -29,9 +29,6 @@
   font-family: yekan;
 }
 
-body .section2-bootstrap-wrapper {
-  background-color: rgb(241, 234, 234);
-}
 body .section2-bootstrap-wrapper .section2-bootstrap {
   width: 80vw;
   height: 55vh;
@@ -44,11 +41,17 @@ body .section2-bootstrap-wrapper .section2-bootstrap .section2-bootsrap-rightsec
   width: 50%;
   height: 100%;
 }
+body .section2-bootstrap-wrapper .section2-bootstrap .section2-bootsrap-rightsection .section2-bootsrap_line {
+  border: 4px solid #FE8269;
+  width: 150px;
+  margin-bottom: 10px;
+}
 body .section2-bootstrap-wrapper .section2-bootstrap .section2-bootsrap-rightsection .section2-bootsrap_text h1 {
   margin-bottom: 20px;
 }
 body .section2-bootstrap-wrapper .section2-bootstrap .section2-bootsrap-rightsection .section2-bootsrap_text p {
   margin-bottom: 30px;
+  text-align: right;
 }
 body .section2-bootstrap-wrapper .section2-bootstrap .section2-bootsrap-rightsection .section2-bootsrap_btn a {
   display: flex;
@@ -61,10 +64,11 @@ body .section2-bootstrap-wrapper .section2-bootstrap .section2-bootsrap-rightsec
   color: white;
   font-size: 1.2rem;
   border-radius: 10px;
+  margin-top: 50px;
 }
 body .section2-bootstrap-wrapper .section2-bootstrap .section2-bootsrap-leftsection {
-  width: 50%;
-  height: 100%;
+  width: 546px;
+  height: 321px;
 }
 body .section2-bootstrap-wrapper .section2-bootstrap .section2-bootsrap-leftsection img {
   transform: scaleX(-1);
