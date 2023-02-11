@@ -35,19 +35,38 @@ body {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   transition: 0.18s ease-in-out;
 }
 
 /* ----- Weblog Section ------ */
 .weblog {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  margin-top: 2rem;
 }
 .weblog_title {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #2e2e2e;
 }
 .weblog_title hr {
+  width: 10rem;
+  height: 0.4rem;
+  margin-bottom: 0.7rem;
+  background-color: #fe7b78;
+  border: none;
 }
 .weblog_title h4 {
+  font-weight: 200;
+  font-size: 2rem;
+}
+.weblog_title h4 strong {
+  font-weight: 600;
+  font-size: 1.7rem;
 }
 /* ----- Weblog Section ------ */
 
