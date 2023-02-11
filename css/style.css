@@ -27,4 +27,49 @@
   text-decoration: none;
   box-sizing: border-box;
   font-family: yekan;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
+body {
+  color: #2e2e2e;
+}
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid red;
+  transition: 0.18s ease-in-out;
+}
+
+/* ----- Weblog Section ------ */
+.weblog {
+  border: 1px solid black;
+}
+.weblog_title {
+}
+.weblog_title hr {
+}
+.weblog_title h4 {
+}
+/* ----- Weblog Section ------ */
+
+/* ----- Media Queries ----- */
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+/* ----- Media Queries ----- */
